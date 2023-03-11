@@ -9,19 +9,19 @@
             review="https://gerrit.omnirom.org" />
 
 <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0" />
+    <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="TeamWin" revision="android-12.1" />
 
 <!-- TWRP busybox lives in omnirom repo -->
-    <project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-7.1" />
+    <project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-9.0" />
 
 <!-- Include Magisk repo for resetprop support -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-7.1" />
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-12.1" />
 
 <!-- Include forked external unzip repo from CyanogenMod for toolbox/toybox support -->
-    <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="cm-14.1" />
+    <project path="external/unzip" name="android_external_unzip" remote="TeamWin" revision="lineage-19.1" />
 
 <!-- Include external zip repo for zip support -->
-    <project path="external/zip" name="android_external_zip" remote="TeamWin" revision="android-7.1" />
+    <project path="external/zip" name="android_external_zip" remote="TeamWin" revision="android-12.1" />
 
 <!-- Include external repos for bash & nano -->
     <project name="LineageOS/android_external_bash" path="external/bash" />
